@@ -4,4 +4,4 @@ for i = 1:1024
 end
 
 figure
-plot(1:(length(j)-1), j(1:end -1));
+plot(1:(length(j)), j);
