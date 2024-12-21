@@ -7,3 +7,4 @@ figure
 plot(1:(length(j)), j, 'Linewidth', 1.5);grid on;
 xlabel('n'),ylabel('Sum');
 title('这是一个测试');
+legend('测试代码');
