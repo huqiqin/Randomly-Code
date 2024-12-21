@@ -4,8 +4,7 @@ for i = 1:1024
 end
 
 figure
-plot(1:(length(j)), j, 'Linewidth', 1.5);grid on;hold on;
-plot(0:-1:1 - length(j), j);
+plot(1:(length(j)), j, 'Linewidth', 1.5);grid on;
 xlabel('n'),ylabel('Sum');
-title('这是一个测试吗真的吗')
+title('这是一个测试吗真的吗');
 legend('测试代码');
